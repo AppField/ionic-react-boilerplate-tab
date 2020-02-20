@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c73d289cfddecba0ba90020b1ae46578",
+    "revision": "08ebfe71bf4095bd849402870016c548",
     "url": "/ionic-react-boilerplate-tab/index.html"
   },
   {
