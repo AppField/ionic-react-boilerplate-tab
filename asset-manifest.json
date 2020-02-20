@@ -15,13 +15,13 @@
     "static/js/6.5d89e3a7.chunk.js": "/ionic-react-boilerplate-tab/static/js/6.5d89e3a7.chunk.js",
     "static/js/6.5d89e3a7.chunk.js.map": "/ionic-react-boilerplate-tab/static/js/6.5d89e3a7.chunk.js.map",
     "main.css": "/ionic-react-boilerplate-tab/static/css/main.70c5c31f.chunk.css",
-    "main.js": "/ionic-react-boilerplate-tab/static/js/main.0064e55e.chunk.js",
-    "main.js.map": "/ionic-react-boilerplate-tab/static/js/main.0064e55e.chunk.js.map",
+    "main.js": "/ionic-react-boilerplate-tab/static/js/main.f6a8692c.chunk.js",
+    "main.js.map": "/ionic-react-boilerplate-tab/static/js/main.f6a8692c.chunk.js.map",
     "runtime-main.js": "/ionic-react-boilerplate-tab/static/js/runtime-main.b3337e59.js",
     "runtime-main.js.map": "/ionic-react-boilerplate-tab/static/js/runtime-main.b3337e59.js.map",
     "static/css/9.8b2ccefd.chunk.css": "/ionic-react-boilerplate-tab/static/css/9.8b2ccefd.chunk.css",
-    "static/js/9.5c6570dc.chunk.js": "/ionic-react-boilerplate-tab/static/js/9.5c6570dc.chunk.js",
-    "static/js/9.5c6570dc.chunk.js.map": "/ionic-react-boilerplate-tab/static/js/9.5c6570dc.chunk.js.map",
+    "static/js/9.09481b49.chunk.js": "/ionic-react-boilerplate-tab/static/js/9.09481b49.chunk.js",
+    "static/js/9.09481b49.chunk.js.map": "/ionic-react-boilerplate-tab/static/js/9.09481b49.chunk.js.map",
     "static/js/10.b881c9ec.chunk.js": "/ionic-react-boilerplate-tab/static/js/10.b881c9ec.chunk.js",
     "static/js/10.b881c9ec.chunk.js.map": "/ionic-react-boilerplate-tab/static/js/10.b881c9ec.chunk.js.map",
     "static/js/11.c5da4838.chunk.js": "/ionic-react-boilerplate-tab/static/js/11.c5da4838.chunk.js",
@@ -199,12 +199,12 @@
     "static/js/97.9bdccd4a.chunk.js": "/ionic-react-boilerplate-tab/static/js/97.9bdccd4a.chunk.js",
     "static/js/97.9bdccd4a.chunk.js.map": "/ionic-react-boilerplate-tab/static/js/97.9bdccd4a.chunk.js.map",
     "index.html": "/ionic-react-boilerplate-tab/index.html",
-    "precache-manifest.e7f20d4c4bf492c7d11990b622ff9ad7.js": "/ionic-react-boilerplate-tab/precache-manifest.e7f20d4c4bf492c7d11990b622ff9ad7.js",
+    "precache-manifest.316c336e70e46bfa67ff89f9a26f35fb.js": "/ionic-react-boilerplate-tab/precache-manifest.316c336e70e46bfa67ff89f9a26f35fb.js",
     "service-worker.js": "/ionic-react-boilerplate-tab/service-worker.js",
     "static/css/9.8b2ccefd.chunk.css.map": "/ionic-react-boilerplate-tab/static/css/9.8b2ccefd.chunk.css.map",
     "static/css/main.70c5c31f.chunk.css.map": "/ionic-react-boilerplate-tab/static/css/main.70c5c31f.chunk.css.map",
     "static/js/78.dbb9849a.chunk.js.LICENSE.txt": "/ionic-react-boilerplate-tab/static/js/78.dbb9849a.chunk.js.LICENSE.txt",
-    "static/js/9.5c6570dc.chunk.js.LICENSE.txt": "/ionic-react-boilerplate-tab/static/js/9.5c6570dc.chunk.js.LICENSE.txt",
+    "static/js/9.09481b49.chunk.js.LICENSE.txt": "/ionic-react-boilerplate-tab/static/js/9.09481b49.chunk.js.LICENSE.txt",
     "static/js/91.826accf3.chunk.js.LICENSE.txt": "/ionic-react-boilerplate-tab/static/js/91.826accf3.chunk.js.LICENSE.txt",
     "static/js/93.16f7b353.chunk.js.LICENSE.txt": "/ionic-react-boilerplate-tab/static/js/93.16f7b353.chunk.js.LICENSE.txt",
     "static/js/95.f8733fcd.chunk.js.LICENSE.txt": "/ionic-react-boilerplate-tab/static/js/95.f8733fcd.chunk.js.LICENSE.txt",
@@ -213,8 +213,8 @@
   "entrypoints": [
     "static/js/runtime-main.b3337e59.js",
     "static/css/9.8b2ccefd.chunk.css",
-    "static/js/9.5c6570dc.chunk.js",
+    "static/js/9.09481b49.chunk.js",
     "static/css/main.70c5c31f.chunk.css",
-    "static/js/main.0064e55e.chunk.js"
+    "static/js/main.f6a8692c.chunk.js"
   ]
 }
