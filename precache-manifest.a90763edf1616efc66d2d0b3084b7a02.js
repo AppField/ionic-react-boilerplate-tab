@@ -1,14 +1,14 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "96f11c46b33cc911c31774bb8b9eaa04",
+    "revision": "63b816bb74bc20c83ac05ae1d096aef6",
     "url": "/ionic-react-boilerplate-tab/index.html"
   },
   {
-    "revision": "ec25f48978343321f299",
+    "revision": "e3de5b7f04fcd95d5394",
     "url": "/ionic-react-boilerplate-tab/static/css/9.8b2ccefd.chunk.css"
   },
   {
-    "revision": "e444722fd7dc3c6e33d3",
+    "revision": "c571c46ada2a27e82715",
     "url": "/ionic-react-boilerplate-tab/static/css/main.70c5c31f.chunk.css"
   },
   {
@@ -364,12 +364,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ionic-react-boilerplate-tab/static/js/89.f2b6c3b4.chunk.js"
   },
   {
-    "revision": "ec25f48978343321f299",
-    "url": "/ionic-react-boilerplate-tab/static/js/9.09481b49.chunk.js"
+    "revision": "e3de5b7f04fcd95d5394",
+    "url": "/ionic-react-boilerplate-tab/static/js/9.5c6570dc.chunk.js"
   },
   {
     "revision": "0bdc4f0d8b3d84ae6a73bb9902b479ee",
-    "url": "/ionic-react-boilerplate-tab/static/js/9.09481b49.chunk.js.LICENSE.txt"
+    "url": "/ionic-react-boilerplate-tab/static/js/9.5c6570dc.chunk.js.LICENSE.txt"
   },
   {
     "revision": "134dc7debdd1aee22f07",
@@ -420,8 +420,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ionic-react-boilerplate-tab/static/js/97.9bdccd4a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e444722fd7dc3c6e33d3",
-    "url": "/ionic-react-boilerplate-tab/static/js/main.f6a8692c.chunk.js"
+    "revision": "c571c46ada2a27e82715",
+    "url": "/ionic-react-boilerplate-tab/static/js/main.8dd24be1.chunk.js"
   },
   {
     "revision": "36fbf08cdb79e8608c2a",
