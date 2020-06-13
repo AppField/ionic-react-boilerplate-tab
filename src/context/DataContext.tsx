@@ -1,32 +1,60 @@
-import React, { useContext, useState } from "react";
-import { Dispatch, SetStateAction } from "react";
+import React, { useContext, createContext, FC, useReducer } from "react";
+import { Dispatch } from "react";
 
-export type DataType = string;
+type DataType = string;
 
-interface AnnotateContextI {
-  data: DataType;
-  setData: Dispatch<SetStateAction<DataType>>;
+enum Types {
+  SetData = "SET_DATA",
+  ResetData = "RESET_DATA",
 }
 
-const initialState: AnnotateContextI = {
+type Action =
+  | { type: Types.SetData; data: DataType }
+  | { type: Types.ResetData };
+
+interface DataContextI {
+  data: DataType;
+}
+
+const initialState: DataContextI = {
   data: "Initial State",
-  setData: (): void => {},
 };
 
-export const DataContext = React.createContext<AnnotateContextI>(initialState);
+const DataContext = createContext<{
+  state: DataContextI;
+  dispatch: Dispatch<any>;
+}>({
+  state: initialState,
+  dispatch: () => null,
+});
 
-export const useDataContext = (): AnnotateContextI => {
+const useDataContext = (): {
+  state: DataContextI;
+  dispatch: Dispatch<any>;
+} => {
   return useContext(DataContext);
 };
 
-const DataProvider: React.FC = ({ children }) => {
-  const [data, setData] = useState<DataType>("My State");
+function reducer(state: DataContextI, action: Action) {
+  switch (action.type) {
+    case Types.SetData:
+      return { ...state, data: action.data };
+    case Types.ResetData:
+      return { ...state, data: initialState.data };
+    default:
+      return state;
+  }
+}
+
+const DataProvider: FC = ({ children }) => {
+  const [state, dispatch] = useReducer(reducer, initialState);
 
   return (
-    <DataContext.Provider value={{ data, setData }}>
+    <DataContext.Provider value={{ state, dispatch }}>
       {children}
     </DataContext.Provider>
   );
 };
 
 export default DataProvider;
+export { Types, DataContext, useDataContext };

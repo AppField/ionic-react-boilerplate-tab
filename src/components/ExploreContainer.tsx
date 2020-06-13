@@ -7,12 +7,12 @@ interface ContainerProps {
 }
 
 const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
-  const { data } = useDataContext();
+  const { state } = useDataContext();
 
   return (
     <div className="container">
       <strong>{name}</strong>
-      <p>Context value: {data}</p>
+      <p>Context value: {state.data}</p>
       <p>
         Explore{" "}
         <a
