@@ -1,16 +1,42 @@
-import React from "react";
-import "./ExploreContainer.css";
+import React, { FC } from "react";
+import styled from "styled-components";
+
 import { useDataContext } from "../context/DataContext";
+
+const StyledContainer = styled.div`
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+
+  strong {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #8c8c8c;
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+`;
 
 interface ContainerProps {
   name: string;
 }
 
-const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
+const ExploreContainer: FC<ContainerProps> = ({ name }) => {
   const { state } = useDataContext();
 
   return (
-    <div className="container">
+    <StyledContainer>
       <strong>{name}</strong>
       <p>Context value: {state.data}</p>
       <p>
@@ -23,7 +49,7 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
           UI Components
         </a>
       </p>
-    </div>
+    </StyledContainer>
   );
 };
 
