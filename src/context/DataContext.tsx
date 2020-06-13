@@ -57,4 +57,5 @@ const DataProvider: FC = ({ children }) => {
 };
 
 export default DataProvider;
-export { Types, DataContext, useDataContext };
+export { Types, DataContext, useDataContext, reducer, initialState };
+export type { DataContextI, Action, DataType };
